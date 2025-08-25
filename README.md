@@ -15,6 +15,12 @@
   http://127.0.0.1:5500/exemplo01.html
   região da memoria que deixa eu acessar o serviço
 </p> 
+<p>
+  css
+
+tem ponto é classe
+# é ID
+* é pra todos
 
 </p>
 <h3>Link Gitbook Carmino</h3>
