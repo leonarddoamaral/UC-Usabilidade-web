@@ -7,14 +7,15 @@
 <h3>Aula 2 carmino</h3>
 <p>Como sincronizar?</p>
 <ul>
-tela inicial do vscode
-configurações
-turn on
-
-http://127.0.0.1:5500/exemplo01.html
-região da memoria que deixa eu acessar o serviço
-  
+  <li>tela inicial do vscode</li>
+  <li>configurações</li>
+  <li>turn on</li>
 </ul>
+<p>LIVE SERVER
+  http://127.0.0.1:5500/exemplo01.html
+  região da memoria que deixa eu acessar o serviço
+</p> 
+
 </p>
 <p>Link Gitbook Carmino</p>
-<li>https://prof-carminos-organization.gitbook.io/css</li>
+<link>https://prof-carminos-organization.gitbook.io/css</link>
