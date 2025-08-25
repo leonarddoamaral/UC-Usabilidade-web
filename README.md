@@ -3,4 +3,15 @@
 
 <img width="1026" height="210" alt="Sistemas (1)" src="https://github.com/user-attachments/assets/001c23dc-c154-4ac3-ba89-40fadb99785f" />
 
-<p>Projetos de sala nas aulas do Carmino e Erica 💻🚀</p>
+<h2>Projetos de sala nas aulas do Carmino e Erica 💻🚀</h2>
+<h3>Aula 2 carmino</h3>
+<p>sincronizar 
+tela inicial do vscode
+configurações
+turn on
+
+http://127.0.0.1:5500/exemplo01.html
+região da memoria que deixa eu acessar o serviço
+</p>
+<p>Link Gitbook Carmino</p>
+<li>https://prof-carminos-organization.gitbook.io/css</li>
