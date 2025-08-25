@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Titulo muy loco</title>
+
+    <style>
+        /* Conflitos simples */
+        p { color: blue; }                /* Peso 1 */
+        .alerta { color: green; }         /* Peso 10 */
+        #mensagem { color: red; }         /* Peso 100 */
+
+        
+        /* Ordem declaração */
+        .info { color: blue; }            /* Peso 10 */
+        .info { color: green; }           /* Peso 10, mas última declaração */
+
+        .aviso { color: green; }          /* Peso 10 */
+        
+        h1:hover{
+            text-decoration: underline;
+        }
+        </style> 
+</head>
+
+<body>
+    <h1>Exemplo de CSS</h1>
+    <p id="mensagem" class="alerta">Bem-vindo ao curso!</p>
+    <p class="alerta">Lerta </p>
+    <p>Nivel 1</p>
+    <p class="info">Atenção!</p>
+    <p class="aviso" style="color: purple;">Mensagem de aviso</p>
+</body>
+</html>

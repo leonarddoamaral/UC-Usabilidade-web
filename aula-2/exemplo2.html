@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo :root e variáveis CSS</title>
+  <style>
+    /* Definição global das variáveis */
+    :root {
+      --cor-principal: #1e66ff;
+      --cor-secundaria: #ff9800;
+      --espacamento: 16px;
+      --raio-borda: 8px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: var(--espacamento);
+    }
+
+    h1 {
+      color: var(--cor-principal);
+    }
+
+    .card {
+      background: white;
+      border-radius: var(--raio-borda);
+      padding: var(--espacamento);
+      margin-bottom: var(--espacamento);
+      border: 2px solid var(--cor-principal);
+    }
+
+    /* Sobrescrevendo variáveis dentro de um contexto */
+    .tema-alternativo {
+      --cor-principal: #4caf50;   /* Verde */
+      --cor-secundaria: #e91e63;  /* Rosa */
+    }
+
+    .tema-alternativo .card {
+      border-color: var(--cor-principal);
+    }
+
+    .btn {
+      background: var(--cor-secundaria);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: var(--raio-borda);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Exemplo com :root e variáveis CSS</h1>
+
+  <div class="card">
+    <p>Este card usa as variáveis globais definidas em <code>:root</code>.</p>
+    <button class="btn">Botão Padrão</button>
+  </div>
+
+  <div class="tema-alternativo">
+    <div class="card">
+      <p>Este card está dentro de <code>.tema-alternativo</code>, que sobrescreveu as variáveis.</p>
+      <button class="btn">Botão Alternativo</button>
+    </div>
+  </div>
+
+</body>
+</html>
